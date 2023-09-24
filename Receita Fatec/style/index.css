@@ -34,27 +34,23 @@ body{
 
 .icones {
     color: #ff6a28;
-    background-color: rgba(128, 128, 128, 0.5);
     width: 700px;
-    height: 25px;
+    height: 90px;
+    padding: 10px 0;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     background-color: rgba(128, 128, 128, 0.342);
 }
-
-.sub_icones {
-    color: #ff6a28;
-    background-color: rgba(128, 128, 128, 0.5);
-    width: 700px;
-    height: 25px;
+.inf_icon {
+    margin-top: 10px;
+    text-align: center;
+}
+.logo{
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-    background-color: rgba(128, 128, 128, 0.342);
-    padding: 1px 1px 1px;
+    align-items: center;
+
 }
 
 #texto_icones {
@@ -68,6 +64,9 @@ body{
     justify-content: space-between;
     background-color: rgba(128, 128, 128, 0.342);
     font-size: 15px;
+}
+.paragrafo_preto {
+    color: black;
 }
 
 .espaco_white {
@@ -98,8 +97,6 @@ body{
     align-items: center;
     font-size: 15px;
     text-align: center;
-    padding: 10px 0px 9px;
-
 }
 
 #empanamento {
@@ -124,24 +121,24 @@ body{
 }
 
 #comprar {
-    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     border: 0;
     border-radius: 25px;
-    font-weight: 700;
     color: #fff;
-    transition: background-color .2s ease-in-out;
-    transition-property: background-color;
-    transition-duration: 0.2s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0s;
     cursor: pointer;
     background-color: #ff6a28;
-    outline: 0;
-    padding: 10px 22px 9px;
-    line-height: 18px;
-    font-size: large;
-    color: aliceblue;
-    display: inline-block;
+    padding: 10px;
+    font-size: 15px;
+    transition: background-color .2s ease-in-out;
+}
+#comprar:hover{
+        background-color: #ff8d5b;
+        outline: 0;
+}
+.fa-cart-shopping{
+    margin-right: 4px;
 }
 
 .font_icon {
