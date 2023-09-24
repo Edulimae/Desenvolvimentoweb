@@ -1,6 +1,7 @@
-body{
-    font: 400 15px/20px "Poppins", Arial, sans-serif;
+body {
+    font: 400 15px "Poppins", Arial, sans-serif;
 }
+
 #menu_principal {
     width: 700px;
     height: 50px;
@@ -20,8 +21,8 @@ body{
 }
 
 #right {
-    height: 50px;
-    width: 30%;
+    width: 25%;
+    height: 40px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -35,18 +36,21 @@ body{
 .icones {
     color: #ff6a28;
     width: 700px;
-    height: 90px;
+    height: 60px;
+    font: 400 12px "Poppins", Arial, sans-serif;
     padding: 10px 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: rgba(128, 128, 128, 0.342);
 }
+
 .inf_icon {
     margin-top: 10px;
     text-align: center;
 }
-.logo{
+
+.logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,6 +69,7 @@ body{
     background-color: rgba(128, 128, 128, 0.342);
     font-size: 15px;
 }
+
 .paragrafo_preto {
     color: black;
 }
@@ -77,15 +82,16 @@ body{
 
 .espaco_gray {
     width: 700px;
-    height: 50px;
+    height: 40px;
     background-color: rgba(128, 128, 128, 0.342);
 }
 
-#massa {
+.titulo {
     color: black;
     background-color: rgba(128, 128, 128, 0.342);
     width: 700px;
     font-size: 15px;
+    font-stretch: expanded;
     text-align: center;
     padding: 10px 0px 9px;
 }
@@ -134,11 +140,13 @@ body{
     font-size: 15px;
     transition: background-color .2s ease-in-out;
 }
-#comprar:hover{
-        background-color: #ff8d5b;
-        outline: 0;
+
+#comprar:hover {
+    background-color: #ff8d5b;
+    outline: 0;
 }
-.fa-cart-shopping{
+
+.fa-cart-shopping {
     margin-right: 4px;
 }
 
@@ -149,4 +157,12 @@ body{
 
 .i {
     color: #ff6a28;
+}
+
+.ordered_list {
+    width: 660px;
+}
+
+.horizontal_rule {
+    color: rgba(0, 0, 0, 0.349);
 }
