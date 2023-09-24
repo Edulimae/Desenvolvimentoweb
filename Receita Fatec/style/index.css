@@ -1,0 +1,154 @@
+body{
+    font: 400 15px/20px "Poppins", Arial, sans-serif;
+}
+#menu_principal {
+    width: 700px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+#left {
+    width: 50%;
+    background-color: white;
+    font-size: 20px;
+    color: #ff6a28;
+}
+
+#right {
+    height: 50px;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#image_item {
+    width: 100px;
+}
+
+.icones {
+    color: #ff6a28;
+    background-color: rgba(128, 128, 128, 0.5);
+    width: 700px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.342);
+}
+
+.sub_icones {
+    color: #ff6a28;
+    background-color: rgba(128, 128, 128, 0.5);
+    width: 700px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.342);
+    padding: 1px 1px 1px;
+}
+
+#texto_icones {
+    color: black;
+    background-color: rgba(128, 128, 128, 0.5);
+    width: 700px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.342);
+    font-size: 15px;
+}
+
+.espaco_white {
+    width: 700px;
+    height: 10px;
+    background-color: white;
+}
+
+.espaco_gray {
+    width: 700px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.342);
+}
+
+#massa {
+    color: black;
+    background-color: rgba(128, 128, 128, 0.342);
+    width: 700px;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 0px 9px;
+}
+
+#ingredientes {
+    color: #ff6a28;
+    background-color: white;
+    width: 700px;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 0px 9px;
+
+}
+
+#empanamento {
+    color: black;
+    background-color: rgba(128, 128, 128, 0.342);
+    width: 700px;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 0px 9px;
+}
+
+#recheio {
+    margin-top: 24px;
+    border: 0;
+    padding: 10px 0px 9px;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.342);
+    width: 700px;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#comprar {
+    margin-top: 24px;
+    border: 0;
+    border-radius: 25px;
+    font-weight: 700;
+    color: #fff;
+    transition: background-color .2s ease-in-out;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    cursor: pointer;
+    background-color: #ff6a28;
+    outline: 0;
+    padding: 10px 22px 9px;
+    line-height: 18px;
+    font-size: large;
+    color: aliceblue;
+    display: inline-block;
+}
+
+.font_icon {
+    color: black;
+
+}
+
+.i {
+    color: #ff6a28;
+}
