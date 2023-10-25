@@ -10,13 +10,28 @@
     <h2>Viagem FatecVot</h2>
     <label for="nome">Nome:</label>
     <input type="text" name="nomeCli" id="nome">
-    <label >Pacotes</label>
+    <label >Pacotes:</label>
     <input type="radio" name="pacotes" value="1000"><label>Pacote 1</label>
+
     <input type="radio" name="pacotes" value="2000"><label>Pacote 2</label>
+    
     <input type="radio" name="pacotes" value="3000"><label>Pacote 3</label>
 
+
+
     <br>
-    <button onclick="calcularDesc()">Calcular Pacote com desconto</button>
+    <label>Adicionais:</label>
+    <input type="checkbox" name="alimentacao" value="300">
+    <label for>Alimentação</label>
+    <input type="checkbox" name="veiculo" value="150">
+    <label>Veículo</label>
+    <input type="checkbox" name="translado" value="50">
+    <label>Translado</label>
+    <br>
+
+    <button onclick="calcularTotalViagem()">Calcular Valor do Pacote</button>
+
+    <h1 id="Texto">testetet</h1>
 
 </body>
 </html>
