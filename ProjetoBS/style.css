@@ -1,0 +1,13 @@
+img{
+    margin-right: 5%;
+    margin-left: 5%;
+    max-width: 90%;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+    
+}
+
+.carousel-control-next-icon{
+   border: 2px darkblue solid;
+}
